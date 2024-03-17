@@ -15,10 +15,10 @@ static double Adavg(int[] numbers) {
 static int biggest(int[]numbers)
 {
     int biggestint = numbers[0];
-    for(int i = 0 ; i < numbers.Length ; i++)
+    for(int k = 0 ; k < numbers.Length ; k++)
     {
-        if (biggestint < numbers[i])
-            biggestint = numbers[i];
+        if (biggestint < numbers[k])
+            biggestint = numbers[k];
     }
     
     
