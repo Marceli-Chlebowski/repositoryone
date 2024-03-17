@@ -14,15 +14,15 @@ static double Adavg(int[] numbers) {
 
 static int biggest(int[]numbers)
 {
-    int biggestint = numbers[0];
+    int result = numbers[0];
     for(int i = 0 ; i < numbers.Length ; i++)
     {
-        if (biggestint < numbers[i])
-            biggestint = numbers[i];
+        if (result < numbers[i])
+            result = numbers[i];
     }
     
     
-    return biggestint;
+    return result;
 }
 
 int[] arr = {1,2,3,4,};
